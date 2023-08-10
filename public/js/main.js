@@ -9,8 +9,6 @@ const getInfo = async(event)=>{
     let cityVal = cityName.value;
     if(cityVal===""){
         city_name.innerHTML = "Please Enter A City Name"
-
-
     }
     else{
         try {
